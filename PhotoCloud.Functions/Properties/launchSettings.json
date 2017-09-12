@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PhotoCloud.Functions": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --cors *"
+    }
+  }
+}
