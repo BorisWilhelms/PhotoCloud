@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+}
+
+.thumbnail {
+  display: flex;
+  justify-content: center;
+
+  background-color: lightgray;
+
+  height: 200px;
+  width: 268px;
+
+  margin-right: 5px;
+}

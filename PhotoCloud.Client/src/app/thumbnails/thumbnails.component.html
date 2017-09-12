@@ -1,0 +1,5 @@
+<div class="container">
+  <a class="thumbnail" *ngFor="let photo of photos | async" [routerLink]="['/','photo', photo.Name]">
+    <img src="{{ photostorage.small + photo.Name }}" alt="">
+  </a>
+</div>

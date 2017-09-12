@@ -9,15 +9,6 @@ import { Photo } from './photo';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
-  public photos: Observable<Photo[]>;
-  public photostorage = environment.photostorage;
+export class AppComponent {
 
-  constructor(private _photoService: PhotoService) {
-
-  }
-
-  ngOnInit(): void {
-    this.photos = this._photoService.GetAll();
-  }
 }
