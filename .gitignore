@@ -1,6 +1,5 @@
 *.user
 bin
 obj
-local.settings.json
 .vs
 *.pubxml
